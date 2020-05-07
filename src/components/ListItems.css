@@ -1,0 +1,29 @@
+.list {
+  color: #fff;
+  border-width: 300px;
+  background-color: #bf07ac;
+  height: 50px;
+  line-height: 50px;
+  margin: 20px 20px;
+  border-radius: 5px;
+}
+.list p {
+  color: #fff;
+  position: relative;
+  padding-left: 10px;
+}
+.list p span i {
+  position: absolute;
+  right: 10px;
+  float: right;
+  line-height: 50px;
+}
+.list p input {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 18px;
+}
+.list p input::focus {
+  outline: none;
+}
